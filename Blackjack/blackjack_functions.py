@@ -3,6 +3,7 @@ def take_bet(chips):
         try:
             bet = int(input('Enter an amount to bet this game. Your current balance is {} chips: '.format(chips)))
         except:
+
             print('Please enter a positive integer value for your bet!')
         else:
             break
