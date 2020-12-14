@@ -8,9 +8,11 @@ def take_bet(chips):
             break
     return bet
 
+
 def hit(deck,hand,values):
     hit_card = deck.deal()
     hand.add_card(hit_card,values)
+
 
 def hit_or_stand(deck,hand,values):
     global playing  # to control an upcoming while loop
