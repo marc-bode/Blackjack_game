@@ -8,6 +8,7 @@ def take_bet(chips):
             break
     return bet
 
+
 def hit(deck,hand,values):
     hit_card = deck.deal()
     hand.add_card(hit_card,values)
